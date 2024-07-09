@@ -1,0 +1,28 @@
+h1 {
+    font-weight: bold;
+    font-size: 32px;
+    background-color: green;
+}
+
+img {
+    height: 400;
+    width: 400;
+}
+
+ol {
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* overwritten by .description (cascading) */
+.cool{
+    color: blue;
+}
+
+.description {
+    color: green;
+}
+
+p {
+    color: red;
+}
